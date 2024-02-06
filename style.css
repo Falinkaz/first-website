@@ -1,12 +1,17 @@
-body{
-    background: #CCCCCC;
+.mainTitle{
+    padding-left: 30px;
 }
 
 #banner {
     width: 100%;
 }
 
-h1 {
+.main{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.centeredTitle {
     text-align: center;
 }
 
@@ -20,4 +25,25 @@ p{
 
 em strong {
     color: red;
+}
+
+
+.whyalura {
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.whyus {
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.differentiatorsImage {
+    width: 50%;
 }
