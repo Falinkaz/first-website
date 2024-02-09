@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Contact - Alura Barbers</title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+        <body>
+            <header>
+                <div class="upperBox">
+                    <h1><img src="imagenes/logo.png" alt="Alura Barbers logo"></h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <form>
+                    <label for="firstLastName">First and Last Name</label>
+                    <input type="text" id="firstLastName" class="main-input" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="main-input" required placeholder="email@domain.com">
+
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" class="main-input" required placeholder="10 digits">
+
+                    <label for="message">Message</label>
+                    <textarea cols="70" rows="10" id="message" class="main-input" required></textarea>
+
+                    <fieldset>
+
+                        <legend>How would you like to be contacted?</legend>
+
+                        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                        <label for="radio-phone"><input type="radio" name="contacto" value="phone" id="radio-phone">Phone</label>
+                        
+                        <label for="radio-wa"><input type="radio" name="contacto" value="whatsapp" id="radio-wa" checked>WhatsApp</label>  
+                    
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>What time would you like to make an appointment?</legend>
+                        <select>
+                            <option>Morning</option>
+                            <option>Afternoon</option>
+                            <option>Evening</option>
+                        </select>
+                    </fieldset>
+
+                    <label class="checkbox"><input type="checkbox" checked>Would you like to signup for our Newsletter?</label>
+
+                    <input type="submit" class="send">
+                </form>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours of Operation</th>   
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>8 am to 8 pm</td>   
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>8 am to 8 pm</td>   
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>8 am to 8 pm</td>   
+                        </tr>
+                    </tbody>
+                </table>
+
+            </main>
+            <footer>
+                <img src="imagenes/logo-blanco.png" alt="Alura Barbers logo">
+                <p class="copyright">&copy Copyright Alura Barbers - 2024</p>
+            </footer>    
+        </body>
+
+
+    </html>
