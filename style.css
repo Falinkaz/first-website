@@ -153,3 +153,37 @@ td,th {
     padding: 8px 15px;   
 }
 
+/* CSS for the home page */
+
+.banner {
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+}
+
+.core p {
+    margin: 0 0 1em;
+}
+
+.core strong{
+    font-weight: bold;
+}
+
+.core em {
+    font-style: italic;
+}
+
+.utensils{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;  
+}
+
+.differentiators{
+    width: 60%;
+}
